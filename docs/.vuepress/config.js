@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Netlify CMS + VuePress',
-  description: 'Netlify + VuePress',
+  title: 'actv8me Documentation',
+  description: 'actv8me documentation',
   themeConfig: {
     docsDir: 'docs',
     repo: 'john-l-hansen/vuepress-netlify-cms',
@@ -12,7 +12,7 @@ module.exports = {
     nav: [
       {
         text: 'Admin',
-        link: '/admin/#/',
+        link: '/admin/',
       }
     ]
   }
