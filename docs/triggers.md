@@ -1,5 +1,5 @@
 ---
-title: Triggers
+title: Android Triggers
 ---
 ## 3.1 Audio Trigger Configuration
 
