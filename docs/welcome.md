@@ -22,3 +22,10 @@ title: 'Campaign '
 9. Click Create 
 
 10. Created Campaign 
+
+![Alt text](https://img.youtube.com/vi/O0DQrmzAK7g/0.jpg)
+
+(https://www.youtube.com/watch?v=VID)
+
+
+
