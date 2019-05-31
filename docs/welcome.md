@@ -5,20 +5,20 @@ title: 'Campaign '
 
 1. Login to dashboard 
 
-2. Click campaigns (user interaction)
+2. Click campaigns 
 
-3. Click Create a campaign (user interaction)
+3. Click Create a campaign 
 
-4. Fill out name, click Name text box (user interaction) 
+4. Fill out name, click Name text box 
 
-5. Fill out Description, click Description box (user interaction)
+5. Fill out Description, click Description box 
 
-6. Select Start Date and time (user interaction)
+6. Select Start Date and time 
 
-7. Select the end date and time (user interaction)
+7. Select the end date and time 
 
-8. Toggle button to be active or not active (user interaction)
+8. Toggle button to be active or not active 
 
-9. Click Create (user interaction)
+9. Click Create 
 
-10. Created Campaign (user is directed to completed page) 
+10. Created Campaign 
