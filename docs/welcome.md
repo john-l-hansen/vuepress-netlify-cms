@@ -18,7 +18,5 @@ Title: Campaign Page
 10. Created Campaign
 
 # Example Video
+[![](http://img.youtube.com/vi/-fRH7C46SkU/0.jpg)](http://www.youtube.com/watch?v=-fRH7C46SkU "Content Title")
 
-![Alt text](https://img.youtube.com/vi/O0DQrmzAK7g/0.jpg)
-
-[WATCH VIDEO](https://youtu.be/O0DQrmzAK7g)
