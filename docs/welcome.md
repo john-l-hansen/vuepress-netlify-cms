@@ -3,6 +3,8 @@ title: 'Campaign '
 ---
 # Steps to Create a campaign on the dashboard
 
+---
+
 1. Login to dashboard 
 2. Click campaigns 
 3. Click Create a campaign 
