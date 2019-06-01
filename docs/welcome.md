@@ -17,6 +17,8 @@ Title: Campaign Page
 9. Click Create 
 10. Created Campaign
 
+---
+
 # Example Video
 [![](http://img.youtube.com/vi/-fRH7C46SkU/0.jpg)](http://www.youtube.com/watch?v=-fRH7C46SkU "Content Title")
 
