@@ -1,5 +1,5 @@
 ---
-title: 2 Examples
+title: 'Settings '
 ---
 # 'Hello' BeaconSample Demo
 
