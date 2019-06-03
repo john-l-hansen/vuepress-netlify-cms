@@ -1,13 +1,19 @@
 module.exports = {
-  title: 'actv8me Documentation',
-  description: 'actv8me documentation',
+  title: 'Documentation Portal',
+  description: 'A collection of information designed to help understand the actv8me product suite.',
   themeConfig: {
     docsDir: 'docs',
     repo: 'john-l-hansen/vuepress-netlify-cms',
     sidebar: [
       '/',
       '/welcome',
-      '/2-examples'
+      '/campaigns',
+      '/triggers',
+      '/content',
+      '/categories',
+      '/tags',
+      '/settings/',
+      '/support'
     ],
     nav: [
       {
