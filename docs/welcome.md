@@ -6,7 +6,7 @@ title: 'Campaign '
 # Steps to Create a campaign on the dashboard
 
 ---
-Title: Campaign Page
+To Create a Campaign 
 ---
 
 1. Click campaigns
