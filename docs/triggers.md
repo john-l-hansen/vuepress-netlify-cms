@@ -1,7 +1,7 @@
 ---
 title: 'Triggers '
 ---
-## Audio Triggers $title 
+## Audio Triggers Configuration 
 
 ### Actv8 Background Service Listening
 
@@ -11,51 +11,10 @@ Once this is done, the start and stop methods can be used.
 
 Once the context is available to the SDK the service can be started and stopped whenever it is needed.  The service will continue to listen so long as it is not stopped which means it can listen even when the application is put into the background.  
 
-### Steps to Create and Audio Trigger 
-- Click Triggers then Audio in the dropdown
-- Select type of audio trigger “Audio Watermark” or “Audio Fingerprint”
-  Creating Audio Fingerprint 
-- Type in Name* 
-- Click Select media then select media again to add desired audio media
-- If desired add tags then click the “+”
-- Type in Add Id, Brand, Media Type, Media Source and Network 
-- Next Click “Delivery Preset Option”
-- Select  “Use Delivery Preset” or “Create Delivery Preset”
-  Create Delivery Preset 
-- Type in Delivery Preset Name 
-- If you want to Enable Content Redelivery click box: The offer will get delivered until it is     
-  saved or redeemed 
-- Select Delivery Mode
-	
-1.	Multiple offer: Multiple offers will be triggers (2, 3, 4, 5, 6, etc)  
-	
-2.	Sequential: Offers will come in the order they have been saved in preset 
-	
-3.	Random: Offers come in any order  
-
-- Click “+Add Default Content”: This is the content that will get delivered if all other content has   
-   been delivered
--  Enable Catch limit toggle on or off: This allows you to set a limit on how many users can catch              
-   the content in a given period then you decide on the units of duration 
-- Toggle on or off “Enable Prize delivery Rules” and select odds of winning and the amount and   
-   period and duration again 
-- Click “Create Delivery Preset” 
-- Then if desired add to a specific campaign by click “+Add To Campaign” 
-- Select the campaign then hit “Add” 
-- Then if desired add to Application by clicking “+Add To Application”
-- Then Click Create at the top right of the screen to finish creating your audio trigger 
-  Use Delivery Preset 
-- Click “+Add Delivery Preset” 
-- Select chosen preset and click “Add”  
-- Next If desired to add to a campaign click “+ Add to Campaign”
-- Then select campaign from list and click “Add” 
-- Next Click “+Add to Application” and select application from list and click Add
-- Then click Create Audio Trigger to finish 
 
 ### Auto Mode Configuration
 
 Auto mode is a feature that is used for when the Activity that is running the service is in the background but the application still wants promotions to be inserted into the user wallet.  
-
 
 
 Passing a true value will turn auto mode on while passing a false will turn auto mode off.  When auto mode is on and the audio service is enabled the SDK will insert any promotions heard into the current user’s pending wallet.  It is important to note that this feature is only useable if there is a valid user signed into the SDK.
@@ -70,6 +29,47 @@ The integer value passed is the time in seconds that auto mode will remain on wi
 * In order to use any listening service the SDK must be installed based on the installation instructions found in …
 * Auto mode can only be used when a valid user is logged in.  It will not be able to insert a promotion into a wallet otherwise.
 * The audio service needs exclusive access to the microphone in order to run.  This means that if a different process is using the microphone then the service will not be properly started.  Conversely if the service is running and a different process tries to access the microphone it will not be able to.
+
+### Steps to Create Audio Triggers
+1. Click Triggers then Audio in the dropdown
+2. Select type of audio trigger “Audio Watermark” or “Audio Fingerprint”
+ Creating Audio Fingerprint
+3. Type in Name*
+4. Click Select media then select media again to add desired audio media
+5. If desired add tags then click the “+”
+6. Type in Add Id, Brand, Media Type, Media Source and Network
+7. Next Click “Delivery Preset Option”
+8. Select  “Use Delivery Preset” or “Create Delivery Preset”
+ Create Delivery Preset
+9. Type in Delivery Preset Name
+10. If you want to Enable Content Redelivery click box: The offer will get delivered until it is     
+ saved or redeemed
+11. Select Delivery Mode
+
+A.	Multiple offer: Multiple offers will be triggers (2, 3, 4, 5, 6, etc)
+  
+B.	Sequential: Offers will come in the order they have been saved in preset 
+
+C.	Random: Offers come in any order  
+
+12. Click “+Add Default Content”: This is the content that will get delivered if all other content has   
+  been delivered
+13.  Enable Catch limit toggle on or off: This allows you to set a limit on how many users can catch              
+  the content in a given period then you decide on the units of duration
+14. Toggle on or off “Enable Prize delivery Rules” and select odds of winning and the amount and   
+  period and duration again
+15. Click “Create Delivery Preset”
+16. Then if desired add to a specific campaign by click “+Add To Campaign”
+17. Select the campaign then hit “Add”
+18. Then if desired add to Application by clicking “+Add To Application”
+19. Then Click Create at the top right of the screen to finish creating your audio trigger
+ Use Delivery Preset
+20. Click “+Add Delivery Preset”
+21.Select chosen preset and click “Add”  
+22. Next If desired to add to a campaign click “+ Add to Campaign”
+23.Then select campaign from list and click “Add”
+24. Next Click “+Add to Application” and select application from list and click Add
+25. Then click Create Audio Trigger to finish
 
 ##  Touch Trigger Configuration
 
