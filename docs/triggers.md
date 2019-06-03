@@ -31,6 +31,7 @@ The integer value passed is the time in seconds that auto mode will remain on wi
 * The audio service needs exclusive access to the microphone in order to run.  This means that if a different process is using the microphone then the service will not be properly started.  Conversely if the service is running and a different process tries to access the microphone it will not be able to.
 
 ### Steps to Create Audio Triggers
+
 1. Click Triggers then Audio in the dropdown
 2. Select type of audio trigger “Audio Watermark” or “Audio Fingerprint”
  Creating Audio Fingerprint
