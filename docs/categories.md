@@ -1,5 +1,5 @@
 ---
-title: iOS Examples
+title: 'Tags '
 ---
 # 'Hello' BeaconSample Demo
 
