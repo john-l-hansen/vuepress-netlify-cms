@@ -7,7 +7,7 @@ module.exports = {
     sidebar: [
       '/',
       '/welcome',
-      // '/campaigns', Campaigns
+      '/campaigns', 'Campaigns',
       // '/triggers',
       // '/content',
       // '/categories',
