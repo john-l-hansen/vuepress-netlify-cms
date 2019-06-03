@@ -1,87 +1,113 @@
 ---
-title: Android Triggers
+title: 'Triggers '
 ---
-## 3.1 Audio Trigger Configuration
+## Audio Triggers $title 
 
-### 3.1.1 Actv8 Background Service Listening
+### Actv8 Background Service Listening
 
 For android the audio service inside of the Actv8 library is already a service that will listen in the background so long as it is active.  In order to use the listening service the application must provide the application context to the SDK so it can control when the service starts and stops.
-Once this is done, the start and stop methods can be used as follows:
+Once this is done, the start and stop methods can be used.
 
-```java
-CoreLibrary.getInstance().startListening();
-CoreLibrary.getInstance().stopListening(ChangeReason reason);
-```
 
-If either of these methods are called before passing the context they will have no effect.
+Once the context is available to the SDK the service can be started and stopped whenever it is needed.  The service will continue to listen so long as it is not stopped which means it can listen even when the application is put into the background.  
 
-The ChangeReason in stopListening will change auto mode to false if the reason is LOW_BATTERY.
+### Steps to Create and Audio Trigger 
+- Click Triggers then Audio in the dropdown
+- Select type of audio trigger “Audio Watermark” or “Audio Fingerprint”
+  Creating Audio Fingerprint 
+- Type in Name* 
+- Click Select media then select media again to add desired audio media
+- If desired add tags then click the “+”
+- Type in Add Id, Brand, Media Type, Media Source and Network 
+- Next Click “Delivery Preset Option”
+- Select  “Use Delivery Preset” or “Create Delivery Preset”
+  Create Delivery Preset 
+- Type in Delivery Preset Name 
+- If you want to Enable Content Redelivery click box: The offer will get delivered until it is     
+  saved or redeemed 
+- Select Delivery Mode
+	
+1.	Multiple offer: Multiple offers will be triggers (2, 3, 4, 5, 6, etc)  
+	
+2.	Sequential: Offers will come in the order they have been saved in preset 
+	
+3.	Random: Offers come in any order  
 
-Once the context is available to the SDK the service can be stated and stopped whenever it is needed.  The service will continue to listen so long as it is not stopped which means it can listen even when the application is put into the background.  
+- Click “+Add Default Content”: This is the content that will get delivered if all other content has   
+   been delivered
+-  Enable Catch limit toggle on or off: This allows you to set a limit on how many users can catch              
+   the content in a given period then you decide on the units of duration 
+- Toggle on or off “Enable Prize delivery Rules” and select odds of winning and the amount and   
+   period and duration again 
+- Click “Create Delivery Preset” 
+- Then if desired add to a specific campaign by click “+Add To Campaign” 
+- Select the campaign then hit “Add” 
+- Then if desired add to Application by clicking “+Add To Application”
+- Then Click Create at the top right of the screen to finish creating your audio trigger 
+  Use Delivery Preset 
+- Click “+Add Delivery Preset” 
+- Select chosen preset and click “Add”  
+- Next If desired to add to a campaign click “+ Add to Campaign”
+- Then select campaign from list and click “Add” 
+- Next Click “+Add to Application” and select application from list and click Add
+- Then click Create Audio Trigger to finish 
 
-The service requires the activity to exist in order to run so it is recommended to call stopListening() in the Activity’s onDestroy() method to avoid any unnecessary crashes.
+### Auto Mode Configuration
 
-### 3.1.2 Auto Mode Configuration
+Auto mode is a feature that is used for when the Activity that is running the service is in the background but the application still wants promotions to be inserted into the user wallet.  
 
-Auto mode is a feature that is used for when the Activity that is running the service is in the background but the application still wants promotions to be inserted into the user wallet.  In order to use this feature, call the following method:
 
-```java
-CoreLibrary.getInstance().setAutoMode(true, ChangeReason.USER_REQUEST);
-```
 
 Passing a true value will turn auto mode on while passing a false will turn auto mode off.  When auto mode is on and the audio service is enabled the SDK will insert any promotions heard into the current user’s pending wallet.  It is important to note that this feature is only useable if there is a valid user signed into the SDK.
 
 Auto mode will remain on as long as the above method is not called with a false parameter, or for a set amount of time based on a configuration found in the configuration.xml:
 
-```html
-<integer name ="auto_mode_duration">3600</integer>
-```
 
 The integer value passed is the time in seconds that auto mode will remain on without interaction.  The above line is the default amount of time of one hour.
 
-### 3.1.3 Notes
+###  Notes
 
-+ In order to use any listening service the SDK must be installed based on the installation instructions found in …
-+ Auto mode can only be used when a valid user is logged in.  It will not be able to insert a promotion into a wallet otherwise.
-+ The audio service needs exclusive access to the microphone in order to run.  This means that if a different process is using the microphone then the service will not be properly started.  Conversely if the service is running and a different process tries to access the microphone it will not be able to.
+* In order to use any listening service the SDK must be installed based on the installation instructions found in …
+* Auto mode can only be used when a valid user is logged in.  It will not be able to insert a promotion into a wallet otherwise.
+* The audio service needs exclusive access to the microphone in order to run.  This means that if a different process is using the microphone then the service will not be properly started.  Conversely if the service is running and a different process tries to access the microphone it will not be able to.
 
+##  Touch Trigger Configuration
 
-
-
-## 3.2 Touch Trigger Configuration
-
-### 3.2.1 Overview 
-
-The actv8SDK has the ability to handle Touch events as triggers. Touch events are simply triggers defined by a user interface button(like a “catch” button). The values sent to the server are managed by the actv8SDK, so all that needs to be done is for the application to call the following code when the appropriate button is pressed. The signal will be sent to the server and a promotion will be returned to the corresponding Activity if it extends Actv8Activity, or if the Activity implements “OfferListener” interface.
-
-```java
-DailyTrigger trigger = new DailyTrigger();
-trigger.onTriggerData(A8DataDic.values.get(A8DataDic.index));
-```
+### Overview
 
 
+The actv8SDK has the ability to handle Touch events as triggers. Touch events are simply triggers defined by a user interface button(like a “catch” button). The values sent to the server are managed by the actv8SDK, so all that needs to be done is for the application to call the following code when the appropriate button is pressed. The signal will be sent to the server and a promotion will be returned to the corresponding activity.
+
+### Steps to Create Touch Triggers 
+1. Click Triggers then in dropdown select Touch 
+2. Click “Add Touch” in the right top corner 
+3. Add Name, on the Name* Line 
+4. Then select Delivery Preset option and choose to create or use
+5. After you have finished with Preset options you may add content or just click create to finish
+6. You will be redirected to Touch Triggers list and your trigger will be at the top  
 
 
-## 3.3 Beacon Trigger Configuration
 
-### 3.3.1 Overview 
+##  Beacon Trigger Configuration
 
-The actv8SDK has the ability to detect beacons and treat them as events and triggers. When detected the SDK will interpret their ID and send it to the server so the SDK can recieve the proper content. The values sent to the server are managed by the actv8SDK, so all that needs to be done is for the application to call the following code which will start a service for each kind of beacon available (Kontakt and Gimbal beacons).
+###  Overview
 
-```java
-CoreLibrary.getInstance().startKontaktService();
-
-CoreLibrary.getInstance().startGimbalService();
-```
+The actv8SDK has the ability to detect beacons and treat them as events and triggers. When detected the SDK will interpret their ID and send it to the server so the SDK can receive the proper content. The values sent to the server are managed by the actv8SDK, so all that needs to be done is for the application to call the following code which will start a service for each kind of beacon available (Kontakt and Gimbal beacons).
 
 If you try to call these methods while the SDK has not been initialized they will throw an exception.
 
-To Stop the services, simply call these methods:
-
-```java
-CoreLibrary.getInstance().stopKontaktService();
-
-CoreLibrary.getInstance().stopGimbalService();
-```
-
 Your license should determine if you can use the beacon triggers, so please contact Actv8 if you have any issues.
+
+### Steps to Create Beacon Triggers 
+
+1. Click Triggers then in the dropdown select Beacon 
+2. Click “Add Beacon Trigger” on the top right to start 
+3. Type in the name of the beacon by clicking the Name* line
+4. Next select the beacon you want to add by clicking “+Add Beacon”
+5. Click on the desired one and then click Add
+6. Repeat same steps as above for Delivery Preset and Adding to Campaigns and to   
+  Applications 
+7. Click Create to finish 
+8. You will be redirected to Beacon Triggers list and your trigger will be at the top
+
+
