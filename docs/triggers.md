@@ -110,4 +110,25 @@ Your license should determine if you can use the beacon triggers, so please cont
 7. Click Create to finish 
 8. You will be redirected to Beacon Triggers list and your trigger will be at the top
 
+## Geofence Trigger Overview 
+
+### Geo-Location
+* Geographic locations are used in two aspects of the SDK.
+* First, the SDK would like to know the user’s location when they catch a trigger. To use this access, the key “NSLocationWhenInUseUsageDescription” must be set with a string value describing why it’s needed.
+* However, if BluetoothLE devices are desired to be detected (iBeacons, Gimbals…), then instead, the key “NSLocationAlwaysUsageDescription” must be set with a string value describing why it’s needed. BluetoothLE devices are handled through the location manager on the iOS device.
+
+### Also, if you are using Bluetooth Low Energy devices…
+* To detect Bluetooth Low Energy devices, the key “NSBluetoothPeripheralUsageDescription”  must be set with a string value describing why it’s needed.
+
+### Steps to Create a Geofence Trigger 
+
+1. Click Triggers then in the dropdown select Geofences 
+2. Click “Add Geofence” in the top right corner 
+3. Click the Name* and Type in name of the Geofence 
+4. Type in the location on the location tab or select a spot using the map powered by google
+5. Select how many meters you want to be your range with the blue button below 
+6. The system will give you a longitude and latitude for reference 
+7. Repeat same steps as above for Delivery Preset and Adding to Campaigns and to Applications 
+8.  Click Create to finish 
+9. You will be redirected to Geofence Triggers list and your trigger will be at the top
 
