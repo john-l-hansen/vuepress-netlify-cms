@@ -85,17 +85,19 @@ C.	Random: Offers come in any order  
 
   ### Use Delivery Preset
 
+
 20. Click "Add Delivery Preset"
- 
-21.Select chosen preset and click “Add” 
+
+21. Select chosen preset and click “Add” 
  
 22. Next If desired to add to a campaign click Add to Campaign
 
-23.Then select campaign from list and click “Add”
+23. Then select campaign from list and click “Add”
 
 24. Next Click “+Add to Application” and select application from list and click Add
 
 25. Then click Create Audio Trigger to finish
+
 
 ##  Touch Trigger Configuration
 
