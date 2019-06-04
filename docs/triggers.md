@@ -37,4 +37,5 @@ This is a tip
 ---
 
 # Video Guide
+
 [![](http://img.youtube.com/vi/pJXfCr0bZ6o/0.jpg)](http://www.youtube.com/watch?v=pJXfCr0bZ6o "")
