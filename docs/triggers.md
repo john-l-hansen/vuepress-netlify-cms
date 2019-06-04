@@ -7,6 +7,10 @@ title: 'Campaigns '
 To Create a Campaign 
 ---
 
+::: tip
+This is a tip
+:::
+
 1. Click campaigns
 2. Click Create a campaign 
 3. Click Name* to fill our Name for campaign 
