@@ -48,12 +48,19 @@ title: 'Content '
 ## Steps to Create Content Message 
 
 1.Click content then message in dropdown 
+
 2. Click Add message 
+
 3. Add Name, Brand, Start & End date, Title 
+
 4. Choose to enable scratcher or not 
+
 5. Add image for scratcher and for main
+
 6. Select Category 
+
 7. Add desired tags then click save 
+
 8. Click Create 
 
 ### Watch Video for more help 
@@ -63,16 +70,27 @@ title: 'Content '
 ## Steps to Create Content Prize 
 
 1. Click content then prize in dropdown 
-2.Click add prize 
-3. Add Name,brand, start date, title, description for prize 
-4. Enable scratcher if desired 
+
+2. Click add prize 
+
+3. Add Name,brand, start date, title, description for prize
+ 
+4. Enable scratcher if desired
+ 
 5. Add quantity 
+
 6. Select redemption method, redemption code options, barcode format, redemption code, redemption url 
-7. Choose to enable barcode timer 
+
+7. Choose to enable barcode timer
+ 
 8. Click terms and conditions, then add them
+
 9. Select images (640x300) 
+
 10. Select category from dropdown 
+
 11. Add desired tags then click save 
+
 12. Click Create  
 
 ### Watch Video for more help
@@ -83,12 +101,19 @@ title: 'Content '
 
 
 1. Click content then url in dropdown 
-2.Click Add Url 
-3.Click fields to add (Name, Brand, Start & End Dates, URL, URL Title, URL Description) 
-4. Then Click Url button and add desired action buttons Example: (Go to site) (No Thanks) 
+
+2. Click Add Url 
+
+3. Click fields to add (Name, Brand, Start & End Dates, URL, URL Title, URL Description) 
+
+4. Then Click Url button and add desired action buttons Example: (Go to site) (No Thanks)
+ 
 5. Click “select Image” click select image and add image (640x300) 
+
 6.  Click Category and select from drop down menu 
+
 7.  Add desired tags or create them then hit save 
+
 8.  Click create at the top to finish
 
 
