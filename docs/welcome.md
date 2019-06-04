@@ -1,17 +1,9 @@
 ---
+$test: beef
 title: 'Welcome '
 ---
-# \---
 
-# $test: beef
-
-# \---
-
-# 
-
-$beef
-
-
+$test
 
 # Overview
 
