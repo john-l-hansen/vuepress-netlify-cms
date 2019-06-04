@@ -37,9 +37,8 @@ This is a tip
 ---
 
 # Video Guide
-![alt text](https://raw.githubusercontent.com/john-l-hansen/vuepress-netlify-cms/master/docs/.vuepress/public/images/screen-shot-2019-06-04-at-1.49.42-pm.png)
 
-[![campaign-creation ](http://img.youtube.com/vi/pJXfCr0bZ6o/0.jpg)](http://www.youtube.com/watch?v=pJXfCr0bZ6o "Campaign Creation ")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pJXfCr0bZ6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
