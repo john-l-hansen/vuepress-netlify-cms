@@ -37,9 +37,9 @@ This is a tip
 ---
 
 # Video Guide
-
-
 ![alt text](https://raw.githubusercontent.com/john-l-hansen/vuepress-netlify-cms/master/docs/.vuepress/public/images/screen-shot-2019-06-04-at-1.49.42-pm.png)
 
-
 [![campaign-creation ](http://img.youtube.com/vi/pJXfCr0bZ6o/0.jpg)](http://www.youtube.com/watch?v=pJXfCr0bZ6o "Campaign Creation ")
+
+
+
