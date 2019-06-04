@@ -1,15 +1,15 @@
 ---
 home: true 
-heroImage: /images/vuejsradar.png
+heroImage: /images/logo-actv8me.png
 actionText: Try it Out →
 actionLink: /welcome
 features:
-- title: Markdown Editing 
-  details: Netlify's CMS provides a flexible Markdown Editor 
-- title: Asset Management 
-  details: Easily upload images to your repo with an uploader 
-- title: Powerful Deployments
-  details: Leverage the power of netlify and VuePress to deploy statically 
-footer: MIT Licensed | Copyright © 2018-present Andre Liem (www.vuejsradar.com) 
+- title: Dashboard
+  details: Product that manages the other products 
+- title: Android 
+  details: Information on the Android platform 
+- title: iOS
+  details: Information on the iOS platform
+footer: MIT Licensed | Copyright © 2018-present actv8me
 title: FRONT PAGE
 ---
