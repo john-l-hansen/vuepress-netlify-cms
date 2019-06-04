@@ -36,5 +36,5 @@ This is a tip
 
 ---
 
-# Example Video
-[![](http://img.youtube.com/vi/-fRH7C46SkU/0.jpg)](http://www.youtube.com/watch?v=-fRH7C46SkU "Content Title")
+# Video Guide
+[![](http://img.youtube.com/vi/pJXfCr0bZ6o/0.jpg)](http://www.youtube.com/watch?v=pJXfCr0bZ6o "")
