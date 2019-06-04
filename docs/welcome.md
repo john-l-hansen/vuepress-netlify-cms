@@ -1,11 +1,7 @@
 ---
-$test: beef
 title: 'Welcome '
 ---
-
-$test
-
-# Overview
+# REGOverview
 
 The ACTV8me SDK handles the management of ACTV8me proprietary promotion collection and redemption system. The SDK includes authentication with ACTV8me servers, access to ACTV8me trigger technologies, media stored on ACTV8me servers, impression and analytics collection, and are consumed by conforming to RESTful API patterns. The ACTV8me Digital Wallet system delivers promotions through triggered events. The status of promotions stored on ACTV8me servers are managed through the SDK and can be used to leverage meaningful user data.
 
