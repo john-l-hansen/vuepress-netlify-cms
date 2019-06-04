@@ -1,7 +1,7 @@
 ---
 home: true 
 heroImage: /images/logo-actv8me.png
-actionText: Try it Out →
+actionText: Read More →
 actionLink: /welcome
 features:
 - title: Dashboard
@@ -10,6 +10,6 @@ features:
   details: Information on the Android platform 
 - title: iOS
   details: Information on the iOS platform
-footer: MIT Licensed | Copyright © 2018-present actv8me
-title: FRONT PAGE
+footer: MIT Licensed | Copyright © 2011-present actv8me
+title: FRONT PAGE - DO NOT TOUCH
 ---

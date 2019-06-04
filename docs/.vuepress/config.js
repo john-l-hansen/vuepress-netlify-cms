@@ -7,8 +7,13 @@ module.exports = {
     sidebar: [
       '/',
       '/welcome',
-      '/campaigns',
+      '/support',
+      '/settings',
+      '/tags',
       '/categories',
+      '/triggers',
+      '/campaigns',
+      '/content'
     ],
     nav: [
       {
