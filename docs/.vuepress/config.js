@@ -6,14 +6,7 @@ module.exports = {
     repo: 'john-l-hansen/vuepress-netlify-cms',
     sidebar: [
       '/',
-      '/welcome'
-      // '/campaigns'
-      // '/triggers',
-      // '/content',
-      // '/categories',
-      // '/tags',
-      // '/settings',
-      // '/support'
+      '/welcome',
     ],
     nav: [
       {
@@ -22,4 +15,4 @@ module.exports = {
       }
     ]
   }
-} 
+}
